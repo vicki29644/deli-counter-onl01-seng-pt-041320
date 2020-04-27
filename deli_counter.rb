@@ -10,6 +10,7 @@ def line(katz_deli)
         puts "The line is currently: " + people_in_line.join(" ")
     end
 end
+
 def now_serving(katz_deli)
     if katz_deli.size == 0 
         puts "There is nobody waiting to be served!"
